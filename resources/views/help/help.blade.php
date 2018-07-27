@@ -2,7 +2,7 @@
 
 @section('seo_title')
     @if(!$page->seo_title)
-        {{$page->title}}
+        {{$page->name}}
     @else
         {{$page->seo_title}}
     @endif
